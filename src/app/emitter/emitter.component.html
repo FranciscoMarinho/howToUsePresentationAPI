@@ -1,0 +1,9 @@
+<span>
+  Presentation example
+</span>
+<p>message: {{message}}</p>
+<input #inputValue> <button (click)='sendMessage()'>send message</button>
+<button (click)='start()' [disabled]='buttonDisabled'>start</button>
+<button (click)='close()' [disabled]='buttonDisabled'>close</button>
+<button (click)='terminate()' [disabled]='buttonDisabled'>terminate</button>
+<button (click)='reconnect()' [disabled]='buttonDisabled'>reconnect</button>
